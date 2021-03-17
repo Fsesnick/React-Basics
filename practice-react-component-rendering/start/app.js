@@ -4,7 +4,7 @@ const planets = [
     name: 'Mercury',
     diameter: '3,031.67 mi',
     moons: 'none',
-    desc: 'Mercury is the closest planet to the Sun. Due to its proximity, it\'s not easily seen except during twilight. For every two orbits of the Sun, Mercury completes three rotations about its axis. Up until 1965 it was thought that the same side of Mercury constantly faced the Sun.',
+    desc: 'Mercúrio é o planeta mais próximo do sol. Devido à sua proximidade, não é facilmente visto, exceto durante o crepúsculo. Para cada duas órbitas do Sol, Mercúrio completa três rotações em torno de seu eixo. Até 1965, pensava-se que o mesmo lado de Mercúrio tinha constantemente o Sol.',
     url: 'img/mercury.jpg' 
   },
   {
@@ -12,7 +12,7 @@ const planets = [
     name: 'Venus',
     diameter: '7,521 mi',
     moons: 'none',
-    desc: 'Venus is the second planet from the Sun and is the second brightest object in the night sky after the Moon. Venus is the second largest terrestrial planet and is sometimes referred to as the Earth’s sister planet due the their similar size and mass.',
+    desc: 'Vênus é o segundo planeta do Sol e é o segundo objeto mais brilhante no céu noturno depois da lua. Vênus é o segundo maior planeta terrestre e às vezes é referido como o planeta irmão da Terra devido ao seu tamanho e massa semelhantes.',
     url: 'img/venus.jpg' 
   },
   {
@@ -20,7 +20,7 @@ const planets = [
     name: 'Earth',
     diameter: '7,917.5 mi',
     moons: '1',
-    desc: 'Earth is the third planet from the Sun and is the largest of the terrestrial planets. The Earth is the only planet in our solar system not to be named after a Greek or Roman deity. The Earth was formed approximately 4.54 billion years ago and is the only known planet to support life.',
+    desc: 'A Terra é o terceiro planeta do Sol e é o maior dos planetas terrestres. A Terra é o único planeta em nosso sistema solar que não recebeu o nome de uma divindade grega ou romana. A Terra foi formada há aproximadamente 4,54 bilhões de anos e é o único planeta conhecido que sustenta vida.',
     url: 'img/earth.jpg' 
   },
   {
@@ -28,7 +28,7 @@ const planets = [
     name: 'Mars',
     diameter: '4,212 mi',
     moons: '2',
-    desc: 'The fourth planet from the Sun and the second smallest planet in the solar system. Mars is often described as the "Red Planet" due to its reddish appearance. It\'s a terrestrial planet with a thin atmosphere composed primarily of carbon dioxide.',
+    desc: 'O quarto planeta do Sol e o segundo menor planeta do sistema solar. Marte é frequentemente descrito como o "Planeta Vermelho" devido à sua aparência avermelhada. É um planeta com uma fina atmosfera composta principalmente de dióxido de carbono.',
     url: 'img/mars.jpg'
   },
   {
@@ -36,7 +36,7 @@ const planets = [
     name: 'Jupiter',
     diameter: '86,881.4 mi',
     moons: '79',
-    desc: 'The planet Jupiter is the fifth planet out from the Sun, and is two and a half times more massive than all the other planets in the solar system combined. It is made primarily of gases and is therefore known as a "gas giant".',
+    desc: 'O planeta Júpiter é o quinto planeta a partir do Sol e é duas vezes e meia mais massivo do que todos os outros planetas do sistema solar juntos. É feito principalmente de gases e, portanto, é conhecido como um "gigante gasoso".',
     url: 'img/jupiter.jpg' 
   },
   {
@@ -44,7 +44,7 @@ const planets = [
     name: 'Saturn',
     diameter: '72,367.4 mi',
     moons: '62',
-    desc: 'Saturn is the sixth planet from the Sun and the most distant that can be seen with the naked eye. Saturn is the second largest planet and is best known for its fabulous ring system that was first observed in 1610 by the astronomer Galileo Galilei.',
+    desc: 'Saturno é o sexto planeta a partir do Sol e o mais distante que pode ser visto a olho nu. Saturno é o segundo maior planeta e é mais conhecido por seu fabuloso sistema de anéis, observado pela primeira vez em 1610 pelo astrônomo Galileo Galilei.',
     url: 'img/saturn.jpg'
   },
   {
@@ -52,7 +52,7 @@ const planets = [
     name: 'Uranus',
     diameter: '31,518 mi',
     moons: '27',
-    desc: 'Uranus is the seventh planet from the Sun. While being visible to the naked eye, it was not recognised as a planet due to its dimness and slow orbit. Uranus became the first planet discovered with the use of a telescope.',
+    desc: 'Urano é o sétimo planeta do Sol. Embora seja visível a olho nu, não foi reconhecido como um planeta devido à sua obscuridade e órbita lenta. Urano se tornou o primeiro planeta descoberto com o uso de um telescópio.',
     url: 'img/uranus.jpg' 
   },
   {
@@ -60,7 +60,7 @@ const planets = [
     name: 'Neptune',
     diameter: '30,599 mi',
     moons: '14',
-    desc: 'Neptune is the eighth planet from the Sun making it the most distant in the solar system. This gas giant planet may have formed much closer to the Sun in early solar system history before migrating to its present position.',
+    desc: 'Netuno é o oitavo planeta do Sol, tornando-o o mais distante do sistema solar. Este planeta gigante gasoso pode ter se formado muito mais perto do Sol no início da história do sistema solar antes de migrar para sua posição atual.',
     url: 'img/neptune.jpg' 
   },
 ];
@@ -68,12 +68,11 @@ const planets = [
 // =============================================================
 //   WRITE YOUR CODE BELOW
 // =============================================================
-
-// 1: Create a 'Planet' component that renders a planet card
-
-
-// 2: Create a container component that iterates over the planets array 
-//    and renders a 'Planet' component for each object in the array 
+// 1: Crie um componente 'Planet' que renderiza um planet card
 
 
-// 3: Render the container component to the DOM
+// 2: Crie um componente container que itera sobre o array de planetas
+// e renderiza um componente 'Planet' para cada objeto na array
+
+
+// 3: Renderizar o componente container para o DOM
